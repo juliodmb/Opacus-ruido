@@ -1,0 +1,15 @@
+# Arquivos de dados grandes ou brutos (Excel)
+*.xlsx
+*.csv
+/dados_brutos/ # Se você tiver uma pasta específica para dados brutos
+
+# Arquivos de configuração do Spyder
+.spyproject/
+
+# Arquivos compilados Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais (se usar)
+venv/
+.venv/
