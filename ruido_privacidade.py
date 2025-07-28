@@ -63,7 +63,7 @@ class SecureModel(nn.Module):
 
     def forward(self, x):
         x = self.ativacao1(self.camada1(x))
-        x = self.dropout1(x)
+      
         x = self.ativacao2(self.camada2(x))
         x = self.dropout2(x)
         x = self.ativacao3(self.camada3(x))
